@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>MonPortfolio</title>
+    <link href="CampusContest.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    <div class="Main" class="col-sm-6 col-md-4 col-lg-3">
+      <!--Barre de menu en haut de l'écran-->
+        <div class="Bouton" style="z-index: 3;" class="col-sm-6 col-md-4 col-lg-3">   
+            <div class="Logo" class="col-sm-6 col-md-4 col-lg-3">
+            <img id="Logo" src="../Logo.png" alt="Logo">
+            </div>
+            <div class="Nav_Barre" class="col-sm-6 col-md-4 col-lg-3">
+            <a href="#Accueil">Accueil</a>
+            <a href="#container">Experiences</a>
+            <a href="#Formations">Formations</a>
+            <a href="#Competences">Compétences</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Contact">Recommandations</a>
+          </div>
+        </div>
+        <!--Page d'accueil-->
+        <div class="Accueil" id="Accueil" class="col-sm-6 col-md-4 col-lg-3">
+            <img id="Ordinateur" src="../Ecran.png" style="width: 40%;height: auto;" alt="Ordinateur">
+            <p>
+                <strong>Voici</strong> mon Portfolio !
+            </p>
+            <!--Bouton en savoir plus et me contacter de la page d'accueil-->
+            <div class="Bouton1" class="col-sm-6 col-md-4 col-lg-3">
+            <button class="Ensavoirplus" type="button" style="color: white;height: auto;min-height: 50px;">
+              <a href="#Contact" style="color: white;text-decoration: none;">En savoir plus</a>
+            </button>
+
+           <button class="Mecontacter" type="button">
+            <a class="Mecontacter" href="mailto:killianhers@gmail.com" style="color: white;text-decoration: none;height: auto;min-height: 50px;">Me contacter</a>
+
+            </button>
+            </div>
+            <div class="ClavierSouris" class="col-sm-6 col-md-4 col-lg-3">
+                <img id="Clavier" src="../Clavier1.png" style="width: 20%;height: auto;"  alt="Clavier">
+                <img id="Souris" src="../Souris.png" style="width:10%;height: auto; margin-left: 25%;" alt="Souris">
+            </div>
+        </div>
+        <!--Premier carousel pour mes experiences-professionnelles-->
+        <div class="Experience" id="Experience" class="col-sm-6 col-md-4 col-lg-3">
+          <div class="container" id="container" class="col-sm-6 col-md-4 col-lg-3">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" class="col-sm-6 col-md-4 col-lg-3">
+              <!-- Indicateurs -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" style="margin-top: 7%;"class="col-sm-6 col-md-4 col-lg-3">
+          
+                <div class="item active"class="col-sm-6 col-md-4 col-lg-3">
+                  <img src="../Code.png" alt="Codes" style="width:50%;">
+                  <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+                    <h1 style="color: black;">
+                      Expérience Professionnelle
+                  </h1>
+                  <p style="color: black;">
+                      2020-2019<br>
+                      Etudiant • Dev Web • Campus Academy
+                  </p>
+                  </div>
+                </div>
+          
+                <div class="item"class="col-sm-6 col-md-4 col-lg-3">
+                  <img src="../batiment.png" alt="Batiment" style="width:50%;">
+                  <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+                    <h1 style="color: black;">
+                      Expérience Professionnelle
+                  </h1>
+                    <p style="color: black;">
+                      2018–2017<br>
+                      Apprenti • Electricien • Grimoux SARL 
+                  </p>
+                  </div>
+                </div>
+              
+                <div class="item"class="col-sm-6 col-md-4 col-lg-3">
+                  <img src="../batiment.png" alt="Batiment" style="width:50%;">
+                  <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+                    <h1 style="margin-top: 10%;color:black">
+                      Expérience Professionnelle
+                  </h1>
+                    <p style="color: black;">
+                      2017–2016<br>
+                      stagiaire • Electricien • Grimoux SARL
+                  </p>
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--Compétences-->
+        <div class="Competences" id="Competences" class="col-sm-6 col-md-4 col-lg-3">
+          <div class="Competences1" class="col-sm-6 col-md-4 col-lg-3">
+            <h1 style="margin-top: 15%;">Compétences</h1>
+            <p>
+                Skills1<br>
+                <progress value="55" max="100">55 %</progress>
+            </p>
+            <p>
+              Skills2<br>
+              <progress value="55" max="100">55 %</progress>
+          </p>
+          <p>
+            Skills3<br>
+            <progress value="45" max="100">45 %</progress>
+        </p>
+        <p>
+          Skills4<br>
+          <progress value="0" max="100">0 %</progress>
+        </p>
+        <p>
+          Skills5<br>
+          <progress value="0" max="100">0 %</progress>
+        </p>
+          </div>
+          <div class="ImageCompetence" class="col-sm-6 col-md-4 col-lg-3">
+            <img src="../Code.png" alt="Code" style="width: 100%;height: auto;margin-top: 15%;">
+          </div>
+      </div>
+      <!--Deuxième carousel pour mes formations-->
+      <div class="formations">
+      <div class="container" id="Formations" class="col-sm-6 col-md-4 col-lg-3">
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel" class="col-sm-6 col-md-4 col-lg-3">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel1" data-slide-to="1"></li>
+            <li data-target="#myCarousel1" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" style="margin-top: 7%;"class="col-sm-6 col-md-4 col-lg-3">
+      
+            <div class="item active"class="col-sm-6 col-md-4 col-lg-3">
+              <img src="../Formations.png" alt="Formations" style="width:50%;">
+              <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+                <h1>
+                  Formations
+              </h1>
+              <p>
+                  •2018 : Bac professionnelle Electrotechnique<br>
+                  Ima à Laval (53)
+              </p>
+              </div>
+            </div>
+      
+            <div class="item"class="col-sm-6 col-md-4 col-lg-3">
+              <img src="../Formations.png" alt="Formations" style="width:50%;">
+              <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+                <h1>
+                  Formations
+              </h1>
+              <p>
+                •2017 : BEP Electrotechnique<br>
+                Ima à Laval (53)        
+            </p>
+              </div>
+            </div>
+          
+            <div class="item"class="col-sm-6 col-md-4 col-lg-3">
+              <img src="../Formations.png" alt="Formations" style="width:50%;">
+              <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+                <h1>
+                  Formations
+              </h1>
+              <p>
+                •2016 :CAP Electricité<br>
+                Gaston Lesnard à Laval (53)
+              </p>
+              </div>
+            </div>
+        
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="Contact" id="Contact"class="col-sm-6 col-md-4 col-lg-3">
+        <div class="PhotoPro"class="col-sm-6 col-md-4 col-lg-3">
+          <img src="../Killianpro.jpg" alt="ImagePro" style="width: 100%;height:auto;margin-top:10%;">
+        </div>
+        <div class="TexteContact"class="col-sm-6 col-md-4 col-lg-3">
+          <h1 style="margin-top: 10%;">
+            Contactez-moi
+          </h1>
+          <p style="margin-top: 5%;">
+            Hersant Killian <br>
+            07.62.05.78.01<br>
+            Killianhers@gmail.com
+          </p>
+          <a href="https://www.linkedin.com/in/killian-hersant-356a76196/">
+          <img src="../Linkedin.png" alt="Linkedin" style="width: 20%;height: auto;">
+          </a>
+        </div>
+
+    </div>
+</body>
+</html>

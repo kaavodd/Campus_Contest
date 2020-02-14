@@ -1,0 +1,134 @@
+body{
+	margin: 0px;
+}
+/*Div principal*/
+.Main{
+	background-color: black;
+	width: 100%;
+}
+/*Le div du logo en haut à gauche*/
+.Logo{
+	float: left;
+}
+/*L'image logo*/
+#Logo{
+	height: 100px;
+}
+/*mon div pour ma barre des menus en haut*/
+.Bouton{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background: white;
+	position: fixed;
+	
+}
+/*Lien de ma barre des menus*/
+.Nav_Barre{
+	width: 100%;
+	padding-top: 2%;
+}
+.Nav_Barre>a{
+	margin-left: 2%;
+	border: none;
+	background: white;
+	color: black;
+	font-size: large;
+	height: auto;
+	
+}
+/*Mon grand div de la page d'accueil*/
+.Accueil{
+	padding-top: 5%;
+}
+/*Mon image ordinateur dans l'accueil*/
+#Ordinateur{
+	display: block;
+	margin: auto;
+	margin-top: 75px;
+}
+/*Le grand titre de la page d'accueil*/
+.Accueil>p{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
+/*Bouton en dessous de l'ordinateur de la page d'accueil*/
+.Bouton1{
+	text-align: center;
+}
+/*Bouton en savoir plus de la page d'accueil*/
+.Ensavoirplus{
+	height: 50px;
+	width: 12%;
+	border-radius: 10px;
+	background: grey;
+	border: none;
+}
+/*Bouton me contacter de la page d'accueil*/
+.Mecontacter{
+	height: 50px;
+	width: 12%;
+	border-radius: 10px;
+	background: grey;
+	border: none;
+}
+/*Mon div pour mettre ClavierSouris*/
+.ClavierSouris{
+	margin-top: 8%;
+	margin-bottom: 3%;
+}
+/*Mon image de clavier de la page d'accueil*/
+#Clavier{
+	margin-left: 20%;
+}
+/*Div pour mon premier carousel*/
+.Experience{
+	background: white;
+	display: flex;
+	height: 450px;
+}
+/*pour recentrer mon carousel*/
+.carousel-caption{
+	margin-left: 45%;
+	margin-bottom: 5%;
+}
+/*Mon grand div pour les compétences*/
+.Competences{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	text-align: center;
+	color: white;
+}
+/*Div de gauche pour les skills et le titre*/
+.Competences1{
+	width: 720px;
+	background: black;
+}
+
+/*Div de droite pour la photo*/
+.ImageCompetence{
+	width: 48%;
+}
+/*Div principal du contact*/
+.Contact{
+	width: 100%;
+	display: flex;
+	padding-left: 15%;
+}
+/*Div pour la photo*/
+.PhotoPro{
+	width: 30%;
+	height: auto;
+	text-align: center;
+}
+/*Mes coordonnées*/
+.TexteContact{
+	width: 20%;
+	height: auto;
+	padding-top: 2%;
+	font-size: large;
+	text-align: center;
+	margin-left: 20%;
+}
