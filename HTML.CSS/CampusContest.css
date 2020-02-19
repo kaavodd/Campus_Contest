@@ -68,7 +68,7 @@ body{
 /*Bouton me contacter de la page d'accueil*/
 .Mecontacter{
 	height: 50px;
-	width: 12%;
+	width: 13%;
 	border-radius: 10px;
 	background: grey;
 	border: none;
@@ -86,49 +86,226 @@ body{
 .Experience{
 	background: white;
 	display: flex;
-	height: 450px;
+	height: auto;
+	padding-bottom: 5%;
 }
 /*pour recentrer mon carousel*/
 .carousel-caption{
 	margin-left: 45%;
-	margin-bottom: 5%;
 }
 /*Mon grand div pour les compétences*/
 .Competences{
 	width: 100%;
-	height: 500px;
+	height: auto;
 	display: flex;
 	text-align: center;
 	color: white;
 }
-/*Div de gauche pour les skills et le titre*/
-.Competences1{
-	width: 720px;
-	background: black;
+/*Div icon*/
+.bloc_skill {
+    width: 80%;
+    margin: auto;
+  }
+
+  .bloc_skill h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .bloc_icon_skill {
+    display: flex;
+    margin-top: 20%;
+  }
+  .bloc_icon_skill p {
+    text-align: center;
+   font-size: 20px;
+    color: white;
+  }
+
+  .skill1 { 
+	   flex: 1; 
+	}
+ 
+  .skill1 p+p{ 
+	  color: white;
+	 }
+ 
+  .skill2 {
+	   flex: 1;
+}
+   
+  .skill2 p+p {
+	  color: white;
+	}
+  
+  .skill3 {
+	  flex: 1;
 }
 
-/*Div de droite pour la photo*/
-.ImageCompetence{
-	width: 48%;
+  .skill3 p+p {
+	   color: white;
+	}
+	
+	.skill4 { 
+		flex: 1;
+	  }
+ 
+/*********************SKILL2********************/
+
+  .bloc_skill2{
+    width: 80%;
+    margin: auto;
+  }
+
+  .bloc_icon_skill2 {
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .bloc_icon_skill {
+    display: flex;
+    margin-top: 10%;
+  }
+  .bloc_icon_skill p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+ 
+  .bloc_icon_skill2 p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+/*Div formation*/
+.formations{
+	margin-top: 3%;
+	height: auto;
+	padding-bottom: 5%;
+
 }
-/*Div principal du contact*/
-.Contact{
-	width: 100%;
+  .container-contact100{
+	  display: flex;
+	  margin-top: 3%;
+	
+  }
+  .label-input100{
+	  border: 1px solid;
+	  margin-top: 10%;
+  }
+ .Recommandations{	
+	background-image: url(../image/architecture-2256489_1280.jpg);
+	background-size: cover;
+	text-align: center;
+	flex: 1;
+	position: relative;
+	}
+.Contactez-moi{
+	padding-top:20%;
+	}
+.Contactez-moi p {
+	z-index: 1;
+	color: white;
+	text-align: center;
+}
+.Contactez-moi > a {
+	padding-right: 5%;
+}
+.btn-rounded-white{
+    display:inline-block;
+    color:#fff;
+    padding:15px 25px;
+    border:3px solid #fff;
+    border-radius:30px;
+	transition:.5s ease all;
+	
+}
+.btn-rounded-white:hover{
+    color:#FF3838;
+    background:#fff;
+    text-decoration:none
+}
+.Contactez-moi > img{
+	width: 3%;
+	height: auto;
+	position: absolute;
+	left: 35%;
+}
+
+.Formulaire >p {
+ 	margin: 0;
+}
+.main-formulaire{
+	text-align: center;
+	flex: 1;
+}
+.Formulaire{
+	padding-top: 5%;
+}
+.FName{
 	display: flex;
-	padding-left: 15%;
 }
-/*Div pour la photo*/
-.PhotoPro{
-	width: 30%;
-	height: auto;
+.First{
+	flex: 1;
+}
+.Last{
+	flex: 1;
+}
+.form-group{
+	margin: 0;
+	width: 100%;
+}
+.col{
+	padding: 0;
+}
+.Formulaire1{
+	padding-top: 5%;
+}
+.form-group1{
+	margin: 0;
+	width: 100%;
+}
+.Formulaire2{
+	padding-top: 5%;
+}
+.form-group2{
+	margin: 0;
+	width: 100%;
+}
+.Formulaire3{
+	padding-top: 5%;
+}
+.form-group3{
+	margin: 0;
+	width: 100%;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	margin-top: 5%;
 	text-align: center;
 }
-/*Mes coordonnées*/
-.TexteContact{
-	width: 20%;
+#backtotop{
+	float: right;
+}
+.logo_footer > img{
+	width: 6%;
 	height: auto;
-	padding-top: 2%;
-	font-size: large;
-	text-align: center;
-	margin-left: 20%;
+}
+#copyright > p {
+	color: whitesmoke;
+}
+
+@media only screen and (max-width: 780px)
+{
+	.container-contact100
+	{
+		display: block;
+	}
+	.Contactez-moi
+	{
+		position: initial;
+	}
 }

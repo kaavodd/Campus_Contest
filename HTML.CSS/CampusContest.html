@@ -4,108 +4,107 @@
 <head>
     <meta charset="utf-8">
     <title>MonPortfolio</title>
-    <link href="CampusContest.css" rel="stylesheet">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-</head>
+    <link href="CampusContest.css" rel="stylesheet">
+  </head>
 <body>
-    <div class="Main" class="col-sm-6 col-md-4 col-lg-3">
-      <!--Barre de menu en haut de l'écran-->
-        <div class="Bouton" style="z-index: 3;" class="col-sm-6 col-md-4 col-lg-3">   
-            <div class="Logo" class="col-sm-6 col-md-4 col-lg-3">
-            <img id="Logo" src="../Logo.png" alt="Logo">
-            </div>
-            <div class="Nav_Barre" class="col-sm-6 col-md-4 col-lg-3">
-            <a href="#Accueil">Accueil</a>
-            <a href="#container">Experiences</a>
-            <a href="#Formations">Formations</a>
-            <a href="#Competences">Compétences</a>
-            <a href="#Contact">Contact</a>
-            <a href="#Contact">Recommandations</a>
-          </div>
+
+
+  
+  
+    <div class="Main">
+      
+    <!--Barre de menu en haut de l'écran-->
+      <div class="Bouton" style="z-index: 3;">   
+        <div class="Logo">
+          <img id="Logo" src="../image/Logo.png" alt="Logo">
         </div>
-        <!--Page d'accueil-->
-        <div class="Accueil" id="Accueil" class="col-sm-6 col-md-4 col-lg-3">
-            <img id="Ordinateur" src="../Ecran.png" style="width: 40%;height: auto;" alt="Ordinateur">
-            <p>
-                <strong>Voici</strong> mon Portfolio !
+        <div class="Nav_Barre">
+          <a href="#Accueil">Accueil</a>
+          <a href="#container">Expériences</a>
+          <a href="#Formations">Formations</a>
+          <a href="#Competences">Compétences</a>
+          <a href="#Contact">Contact</a>
+          <a href="#Contact">Recommandations</a>
+        </div>
+      </div>
+    <!--Page d'accueil-->
+      <div class="Accueil" id="Accueil">    
+        <img id="Ordinateur" src="../image/Ecran.png" style="width: 40%;height: auto;" alt="Ordinateur">
+        <p>
+          <strong>Voici mon Portfolio !</strong>
+        </p>
+    <!--Bouton en savoir plus et me contacter de la page d'accueil-->
+        <div class="Bouton1">
+          <button class="Ensavoirplus" type="button" style="color: white;height: auto;min-height: 50px;">
+            <a href="#Contact" style="color: white;text-decoration: none;">A propos</a>
+          </button>
+          <button class="Mecontacter" type="button" style="color: white;height: auto;min-height: 50px;overflow: hidden;">
+            <a class="Mecontacter" href="mailto:killianhers@gmail.com" style="color: white;text-decoration: none;">Me contacter</a>
+          </button>
+        </div>
+        <div class="ClavierSouris" >
+          <img id="Clavier" src="../image/Clavier1.png" style="width: 20%;height: auto;"  alt="Clavier">
+          <img id="Souris" src="../image/Souris.png" style="width:10%;height: auto; margin-left: 25%;" alt="Souris">
+        </div>
+        </div>
+      
+    <!--Premier carousel pour mes experiences-professionnelles-->
+      <div class="Experience" id="Experience">
+        <div class="container" id="container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicateurs -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    <!-- Wrapper for slides -->
+          <div class="carousel-inner" style="margin-top: 7%;">
+          <div class="carousel-item active">
+            <img src="../image/Code.png" alt="Codes" style="width:50%;">
+          <div class="carousel-caption"style="z-index: 0;">
+            <h1 style="color: black;">
+              Expériences Professionnelles
+            </h1>
+            <p style="color: black;">
+              2020-2019<br>
+              Etudiant • Dev Web • Campus Academy
             </p>
-            <!--Bouton en savoir plus et me contacter de la page d'accueil-->
-            <div class="Bouton1" class="col-sm-6 col-md-4 col-lg-3">
-            <button class="Ensavoirplus" type="button" style="color: white;height: auto;min-height: 50px;">
-              <a href="#Contact" style="color: white;text-decoration: none;">En savoir plus</a>
-            </button>
-
-           <button class="Mecontacter" type="button">
-            <a class="Mecontacter" href="mailto:killianhers@gmail.com" style="color: white;text-decoration: none;height: auto;min-height: 50px;">Me contacter</a>
-
-            </button>
+          </div>
+          </div>          
+          <div class="carousel-item">
+            <img src="../image/batiment.png" alt="Batiment" style="width:50%;">
+            <div class="carousel-caption" style="z-index: 0;">
+              <h1 style="color: black;">
+                Expériences Professionnelles
+              </h1>
+              <p style="color: black;">
+                2018–2017<br>
+                Apprenti • Electricien • Grimoux SARL 
+              </p>
             </div>
-            <div class="ClavierSouris" class="col-sm-6 col-md-4 col-lg-3">
-                <img id="Clavier" src="../Clavier1.png" style="width: 20%;height: auto;"  alt="Clavier">
-                <img id="Souris" src="../Souris.png" style="width:10%;height: auto; margin-left: 25%;" alt="Souris">
-            </div>
-        </div>
-        <!--Premier carousel pour mes experiences-professionnelles-->
-        <div class="Experience" id="Experience" class="col-sm-6 col-md-4 col-lg-3">
-          <div class="container" id="container" class="col-sm-6 col-md-4 col-lg-3">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" class="col-sm-6 col-md-4 col-lg-3">
-              <!-- Indicateurs -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-          
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" style="margin-top: 7%;"class="col-sm-6 col-md-4 col-lg-3">
-          
-                <div class="item active"class="col-sm-6 col-md-4 col-lg-3">
-                  <img src="../Code.png" alt="Codes" style="width:50%;">
-                  <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
-                    <h1 style="color: black;">
-                      Expérience Professionnelle
-                  </h1>
-                  <p style="color: black;">
-                      2020-2019<br>
-                      Etudiant • Dev Web • Campus Academy
-                  </p>
-                  </div>
-                </div>
-          
-                <div class="item"class="col-sm-6 col-md-4 col-lg-3">
-                  <img src="../batiment.png" alt="Batiment" style="width:50%;">
-                  <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
-                    <h1 style="color: black;">
-                      Expérience Professionnelle
-                  </h1>
-                    <p style="color: black;">
-                      2018–2017<br>
-                      Apprenti • Electricien • Grimoux SARL 
-                  </p>
-                  </div>
-                </div>
+          </div>
               
-                <div class="item"class="col-sm-6 col-md-4 col-lg-3">
-                  <img src="../batiment.png" alt="Batiment" style="width:50%;">
-                  <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
-                    <h1 style="margin-top: 10%;color:black">
-                      Expérience Professionnelle
-                  </h1>
-                    <p style="color: black;">
-                      2017–2016<br>
-                      stagiaire • Electricien • Grimoux SARL
-                  </p>
-                  </div>
-                </div>
+          <div class="carousel-item">
+            <img src="../image/batiment.png" alt="Batiment" style="width:50%;">
+            <div class="carousel-caption" style="z-index: 0;">
+                <h1 style="margin-top: 10%;color:black">
+                  Expériences Professionnelles
+                </h1>
+                <p style="color: black;">
+                  2017–2016<br>
+                  stagiaire • Electricien • Grimoux SARL
+                </p>
+            </div>
+          </div>
             
-              </div>
+        </div>
           
               <!-- Left and right controls -->
               <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -120,38 +119,46 @@
           </div>
         </div>
         <!--Compétences-->
-        <div class="Competences" id="Competences" class="col-sm-6 col-md-4 col-lg-3">
-          <div class="Competences1" class="col-sm-6 col-md-4 col-lg-3">
-            <h1 style="margin-top: 15%;">Compétences</h1>
-            <p>
-                Skills1<br>
-                <progress value="55" max="100">55 %</progress>
-            </p>
-            <p>
-              Skills2<br>
-              <progress value="55" max="100">55 %</progress>
-          </p>
-          <p>
-            Skills3<br>
-            <progress value="45" max="100">45 %</progress>
-        </p>
-        <p>
-          Skills4<br>
-          <progress value="0" max="100">0 %</progress>
-        </p>
-        <p>
-          Skills5<br>
-          <progress value="0" max="100">0 %</progress>
-        </p>
+        <div class="Competences" id="Competences" >
+          <div class="bloc_skill">
+          <div class="bloc_icon_skill">
+
+            <div class="skill1">
+                <P><i class="fab fa-html5" style="font-size:60px ;color: white;"></i> </p>
+                <p> HTML 5</p>
+            </div>
+    
+            <div class="skill2">
+              <p> <i class="fab fa-css3-alt" style="font-size:60px ;color: white"></i></p>
+              <p style="margin-right: 1%;">CSS 3</p>
+            </div>      
           </div>
-          <div class="ImageCompetence" class="col-sm-6 col-md-4 col-lg-3">
-            <img src="../Code.png" alt="Code" style="width: 100%;height: auto;margin-top: 15%;">
-          </div>
+        </div>
       </div>
+    
+    <!-- Seconde partie Skill-->
+
+        <div class="bloc_skill2"> 
+    
+          <div class="bloc_icon_skill2">
+            <div class="skill3">
+              <p> <i class="fab fa-java" style="font-size:60px ;color:white"></i></p>
+              <p style="margin-right: 1%;">JAVASCRIPT</p>
+            </div>
+        
+            <div class="skill4">
+              <p><i class="fab fa-php" style="font-size:60px;color: white"></i></p>
+              <p>PHP</p>
+            </div>
+          </div>
+        </div>
+        
+        <iframe style="display: block;margin: auto;margin-top: 10%;width: 50%;height: auto;" src="https://www.youtube.com/embed/rwn5QWsk1zo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
       <!--Deuxième carousel pour mes formations-->
-      <div class="formations">
-      <div class="container" id="Formations" class="col-sm-6 col-md-4 col-lg-3">
-        <div id="myCarousel1" class="carousel slide" data-ride="carousel" class="col-sm-6 col-md-4 col-lg-3">
+      <div class="formations" style="margin-top:10%;">
+      <div class="container" id="Formations">
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
@@ -160,11 +167,11 @@
           </ol>
       
           <!-- Wrapper for slides -->
-          <div class="carousel-inner" style="margin-top: 7%;"class="col-sm-6 col-md-4 col-lg-3">
+          <div class="carousel-inner">
       
-            <div class="item active"class="col-sm-6 col-md-4 col-lg-3">
-              <img src="../Formations.png" alt="Formations" style="width:50%;">
-              <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+            <div class="carousel-item active">
+              <img src="../image/Formations.png" alt="Formations" style="width:50%;height: auto;">
+              <div class="carousel-caption" style="z-index: 0;">
                 <h1>
                   Formations
               </h1>
@@ -175,9 +182,9 @@
               </div>
             </div>
       
-            <div class="item"class="col-sm-6 col-md-4 col-lg-3">
-              <img src="../Formations.png" alt="Formations" style="width:50%;">
-              <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+            <div class="carousel-item">
+              <img src="../image/Formations.png" alt="Formations" style="width:50%;height: auto;">
+              <div class="carousel-caption" style="z-index: 0;">
                 <h1>
                   Formations
               </h1>
@@ -188,9 +195,9 @@
               </div>
             </div>
           
-            <div class="item"class="col-sm-6 col-md-4 col-lg-3">
-              <img src="../Formations.png" alt="Formations" style="width:50%;">
-              <div class="carousel-caption"class="col-sm-6 col-md-4 col-lg-3">
+            <div class="carousel-item">
+              <img src="../image/Formations.png" alt="Formations" style="width:50%;height: auto;">
+              <div class="carousel-caption" style="z-index: 0;">
                 <h1>
                   Formations
               </h1>
@@ -216,24 +223,87 @@
       </div>
     </div>
   </div>
-    <div class="Contact" id="Contact"class="col-sm-6 col-md-4 col-lg-3">
-        <div class="PhotoPro"class="col-sm-6 col-md-4 col-lg-3">
-          <img src="../Killianpro.jpg" alt="ImagePro" style="width: 100%;height:auto;margin-top:10%;">
-        </div>
-        <div class="TexteContact"class="col-sm-6 col-md-4 col-lg-3">
-          <h1 style="margin-top: 10%;">
-            Contactez-moi
-          </h1>
-          <p style="margin-top: 5%;">
-            Hersant Killian <br>
-            07.62.05.78.01<br>
+    <div class="container-contact100" id="Contact">
+      <div class="Recommandations">
+      <div style="position: absolute; height: 100%; width: 100%; background-color: rgb(0, 0, 0,0.5);"></div>
+
+
+        <div class="Contactez-moi" style="position: relative;">
+          <p>
+          Hersant Killian
+          </p>
+          <p>
+            Numero de téléphone
+          </p>
+          <p>
+            07.62.05.78.01
+          </p>
+          <p>
+            Adresse mail
+          </p>
+          <p>
             Killianhers@gmail.com
           </p>
-          <a href="https://www.linkedin.com/in/killian-hersant-356a76196/">
-          <img src="../Linkedin.png" alt="Linkedin" style="width: 20%;height: auto;">
-          </a>
+          <a href="../CV_HERSANT_KILLIAN.pdf" class="btn-rounded-white">Télécharger mon CV</a>
+
         </div>
 
+      </div>
+      
+      <div class="main-formulaire">
+        <h1>Send us a message</h1>
+      <div class="Formulaire">
+        <div class="form-group">
+          <label style="background-color: black;color: white;" type="text" id="disabledTextInput" class="form-control" placeholder="Tell us your name">Tell us your name</label>
+        </div>
+        <form>
+          <div class="FName">
+            <div class="First">
+              <input  type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="Last">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+      </div>
+      <div class="Formulaire1">
+        <div class="form-group1">
+          <label style="background-color: black;color: white;" type="text" id="disabledTextInput" class="form-control" placeholder="Enter your mail">Enter your mail</label>
+        </div>
+              <input type="text" class="form-control" placeholder="Ex@gmail.com">
+      </div>
+      <div class="Formulaire2">
+        <div class="form-group2">
+          <label style="background-color: black;color: white;" type="text" id="disabledTextInput" class="form-control" placeholder="Enter your phone number">Enter your phone number</label>
+        </div>
+              <input type="text" class="form-control" placeholder="06.00.00.00.00">
+      </div>
+      <div class="Formulaire3">
+        <div class="form-group3">
+          <label style="background-color: black;color: white;" type="text" id="disabledTextInput" class="form-control" placeholder="Message">Message</label>
+        </div>
+              <input type="text" class="form-control" placeholder="Write us a message">
+        </form>
+      </div>
+      
     </div>
+    </div>
+    <footer class="footer">  
+      <div class="all">
+        <a href="https://github.com/harfang14?tab=repositories" class="fa fa-github" ></a>
+        <a href="https://www.linkedin.com/in/rauana-roupsard/" class="fa fa-linkedin-square"></a> 
+      </div>  
+      <div class="logo_footer">
+        <img src="../image/Logo.png">
+      </div>
+      <div id="copyright">
+        <p><i class='far fa-copyright' style='font-size:14px'></i> 2020 Tous droits réservés | Killian Hersant </p>
+      </div>
+      
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
