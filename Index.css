@@ -60,10 +60,10 @@ body{
 }
 
 /*Bouton en dessous de l'ordinateur de la page d'accueil*/
-.Apropos_Contacter{
+.list_button{
 	text-align: center;
 }
-.Apropos_Contacter > a{
+.list_button > a{
 	color: white;
 	text-decoration: none;
 }
@@ -91,7 +91,7 @@ body{
 	overflow: hidden;
 }
 /*Mon div pour mettre ClavierSouris*/
-.ClavierSouris{
+.image{
 	margin-top: 8%;
 	margin-bottom: 3%;
 }
@@ -264,18 +264,18 @@ body{
 	width: 100%;
 	background-color: rgb(0, 0, 0,0.5);
 }
-.Contactez-moi{
+.Contact{
 	padding-top: 20%;
 	position: relative;
 }
-.Contactez-moi p {
+.Contact p {
 	z-index: 1;
 	color: white;
 }
-.Contactez-moi > a {
+.Contact > a {
 	padding-right: 5%;
 }
-.Contactez-moi > img{
+.Contact > img{
 	width: 3%;
 	height: auto;
 	position: absolute;

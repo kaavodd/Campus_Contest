@@ -2,20 +2,20 @@
 <html lang="fr">
 
 <head>
-    <?php include("../assets/head.php")?>
+    <?php include("assets/head.php")?>
 </head>
 <body>
     <div class="Main"> 
     <!--Barre de menu en haut de l'écran-->
-   <?php include("../assets/navbarre.php")?>
+   <?php include("assets/navbarre.php")?>
     <!--Page d'accueil-->
       <div class="Accueil" id="Accueil">    
-        <img id="Ordinateur" src="../image/Ecran.png" alt="Ordinateur">
+        <img id="Ordinateur" src="image/Ecran.png" alt="Ordinateur">
         <p>
           <strong>Voici mon Portfolio !</strong>
         </p>
     <!--Bouton en savoir plus et me contacter de la page d'accueil-->
-        <div class="Apropos_Contacter">
+        <div class="list_button">
           <a href="#Contact">
             <button class="Ensavoirplus" type="button">
             A propos
@@ -25,14 +25,14 @@
             Me contacter
           </button></a>
         </div>
-        <div class="ClavierSouris" >
-          <img id="Clavier" src="../image/Clavier1.png" alt="Clavier">
-          <img id="Souris" src="../image/Souris.png" alt="Souris">
+        <div class="image" >
+          <img id="Clavier" src="image/Clavier1.png" alt="Clavier">
+          <img id="Souris" src="image/Souris.png" alt="Souris">
         </div>
       </div>
       
     <!--Premier carousel pour mes experiences-professionnelles-->
-      <?php include("../assets/carousel1.php")?>
+      <?php include("assets/carousel1.php")?>
         <!--Compétences-->
         <div class="Competences" id="Competences" >
           <div class="bloc_HTML_CSS">
@@ -71,7 +71,7 @@
         <iframe class="video" src="https://www.youtube.com/embed/rwn5QWsk1zo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
       <!--Deuxième carousel pour mes formations-->
-      <?php include("../assets/carousel2.php")?>
+      <?php include("assets/carousel2.php")?>
 
 
     <div class="container-contact100" id="Contact">
@@ -79,7 +79,7 @@
         <div class="vide"></div>
 
 
-        <div class="Contactez-moi">
+        <div class="Contact">
           <p>
           Hersant Killian
           </p>
@@ -95,7 +95,7 @@
           <p>
             Killianhers@gmail.com
           </p>
-          <a href="../CV_HERSANT_KILLIAN.pdf" class="btn-rounded-white">Télécharger mon CV</a>
+          <a href="CV_HERSANT_KILLIAN.pdf" class="btn-rounded-white">Télécharger mon CV</a>
 
         </div>
 
@@ -141,7 +141,7 @@
                 Je reconnais avoir pris connaissance des <a href="#" data-toggle="modal" data-target="#staticBackdrop">Conditions Générales d'Utilisation</a> du site et je les accepte.
             </div>
             </div>
-            
+            </label>
               <div class="modal-footer">
                 <button id="btnContact" type="button" class="btn btn-blue">Send</button>
               </div>
@@ -151,7 +151,7 @@
         </div>
       </div>
     </div>
-  <?php include("../assets/footer.php")?>
-  <?php include("../assets/script.php")?>
+  <?php include("assets/footer.php")?>
+  <?php include("assets/script.php")?>
 </body>
 </html>
